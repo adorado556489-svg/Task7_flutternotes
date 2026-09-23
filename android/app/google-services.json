@@ -1,37 +1,37 @@
 {
   "project_info": {
-    "project_number": "1083001724485",
-    "project_id": "notes-ce9f5",
-    "storage_bucket": "notes-ce9f5.firebasestorage.app"
+    "project_number": "566986428664",
+    "project_id": "notes-6acaa",
+    "storage_bucket": "notes-6acaa.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1083001724485:android:a9474d1f606761b01fcd2c",
+        "mobilesdk_app_id": "1:566986428664:android:4d74c2bb91cbf0d73fab0d",
         "android_client_info": {
           "package_name": "com.example.task7_flutterfire_notes"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1083001724485-co6i0jfg389sr8ngne4u8p6mgf5omd6n.apps.googleusercontent.com",
+          "client_id": "566986428664-3v0h4s8joe21lg7q8i5t6rmoosq5jg1l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6IXl4--T2Bib8twqTkSEXKngjGCNs5go"
+          "current_key": "AIzaSyAOmBqd3tZyllpI4za_MDrcfhp8xb2DT8g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1083001724485-co6i0jfg389sr8ngne4u8p6mgf5omd6n.apps.googleusercontent.com",
+              "client_id": "566986428664-3v0h4s8joe21lg7q8i5t6rmoosq5jg1l.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1083001724485-0g5mlpvd441nqf5qq7094qslb2sq75ia.apps.googleusercontent.com",
+              "client_id": "566986428664-mkpn8p25c44qceh5gvudphdfg1c4ajsp.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.example.task7FlutterfireNotes"

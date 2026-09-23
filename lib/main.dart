@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       title: 'Firebase CRUD',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 255, 214, 228),
+          seedColor: Colors.lightBlue,
         ),
       ),
       home: StreamBuilder(

@@ -22,12 +22,12 @@ class _homepageState extends State<homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 231, 237),
+      backgroundColor: Colors.lightBlueAccent[100],
 
       appBar: AppBar(
-        title: const Text('Firebase Añora'),
+        title: const Text('Firebase Dorado'),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 255, 201, 216),
+        backgroundColor: Colors.lightBlueAccent[100],
 
         actions: [
           IconButton(
@@ -40,11 +40,11 @@ class _homepageState extends State<homepage> {
               showFavorites
                   ? Icons.favorite
                   : Icons.favorite_border,
-              color: Colors.pink,
+              color: Colors.lightBlueAccent,
             ),
           ),
 
-          // LOGOUT
+    
           IconButton(
             icon: const Icon(Icons.logout),
             onPressed: () async {
@@ -63,15 +63,15 @@ class _homepageState extends State<homepage> {
         ],
       ),
 
-      // ADD ITEM
+      
       floatingActionButton: FloatingActionButton(
-        backgroundColor: const Color.fromARGB(255, 250, 131, 167),
+        backgroundColor: Colors.lightBlueAccent[100],
         child: const Icon(Icons.add, color: Colors.black),
         onPressed: () => openAddDialog(context),
       ),
 
       body: StreamBuilder<QuerySnapshot>(
-        stream: showFavorites // if pressed kay makita ang fave list
+        stream: showFavorites 
             ? service.getFavoriteItems()
             : service.getItems(),
 
@@ -163,7 +163,7 @@ class _homepageState extends State<homepage> {
                           data['isFavorite'] ?? false
                               ? Icons.favorite
                               : Icons.favorite_border,
-                          color: Colors.pink,
+                          color: Colors.lightBlueAccent,
                         ),
                       ),
 
@@ -195,13 +195,12 @@ class _homepageState extends State<homepage> {
     );
   }
 
-  // FAVORITE
   void addFavorite(String id, bool currentFavorite) {
     service.updateFavorite(id, !currentFavorite,
     );
   }
 
-  // DELETE UI
+  
   void _confirmDelete(BuildContext context, String id) {
     showDialog(
       context: context,
@@ -339,7 +338,7 @@ class _homepageState extends State<homepage> {
 
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.pink[100],
+                backgroundColor: Colors.lightBlueAccent[100],
 
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8),
